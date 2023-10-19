@@ -1,0 +1,26 @@
+.Heading {
+    color : #8A1708;
+    font-family: 'Perfect';    
+    font-size: 50px; 
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 30px;
+}
+
+
+
+.Text {
+  color : black;
+  font-family: 'Baskervville';  
+  font-size: 20px;   
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  
+}
+
+body {
+  background:  #ffffff;
+}
+

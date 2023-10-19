@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "../components/navbar";
-
+import "../style/fonts.css";
 function Pradarshana() {
   return (
     <div>
-      <Navbar />
       <div className="Heading">About</div>
       <div className="Text">
         Pradarshana is a plethora of vocal performances presented by the pupils
@@ -15,9 +13,7 @@ function Pradarshana() {
         Pradarshana prides itself with discussions on India’s rich culture,
         tradition and values in the form of skits and plays.
       </div>
-      <div className="Heading">
-        Audiance Turnout
-      </div>
+      <div className="Heading">Audience Turnout</div>
       <div className="Heading">Gallery</div>
     </div>
   );
