@@ -1,11 +1,14 @@
 import React from "react";
 import "../style/fonts.css";
+import "../style/home.css";
+import Footer from "../components/footer";
+import Image from "../assets/images/guru.webp";
 function Home() {
   return (
     <body>
       <div className="simple-linear">
-        <div className="Heading">About Raagasudha</div>
-        <div className="Text">
+        <div className="HomeHeading">About Raagasudha</div>
+        <div className="HomeText">
           Raagasudha Music Academy provides Carnatic Vocal music training in the
           North East of England through a structured curriculum. Raagasudha
           strives to be a leading music school in the UK by providing a creative
@@ -32,6 +35,9 @@ function Home() {
           aim at Raaga Sudha is for the students to ‘not just learn’ but to
           “experience music”.
         </div>
+        <div className="contentImg">
+          <img src={Image}></img>
+        </div>
         <div className="Heading">Praveena Srikailash</div>
         <div className="Text">Our Guru</div>
         <div className="Text">
@@ -57,7 +63,9 @@ function Home() {
         </div>
         <div className="Heading">Safeguarding and child policy</div>
         <div className="Heading">Gallery</div>
-        <div className="Heading">Contact</div>
+        <div className="Gallery"></div>
+        <a href="#" className="top">...</a>
+        <Footer />
       </div>
     </body>
   );

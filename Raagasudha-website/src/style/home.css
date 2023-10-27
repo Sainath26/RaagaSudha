@@ -1,0 +1,22 @@
+.HomeHeading {
+    color: #8a1708;
+    font-family: "adelia";
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding-bottom: 10px;
+  }
+  
+  
+  .HomeText {
+    color: black;
+    font-family: "Baskervville";
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+ 

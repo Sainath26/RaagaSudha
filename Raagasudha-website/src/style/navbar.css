@@ -1,18 +1,22 @@
-/* Navbar.css */
+/* This CSS file is to design Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   /* padding: 20px;
   background-color: #c6bcaa; */
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0);
+  
 }
 
+/* Logo properties */
 .logo {
-  width: 60px; /* Adjust according to your logo size */
+  width: 60px; 
   padding-left: 5%;
   padding-top: 0.5%;
+  
 }
+
 
 .nav-links {
   display: flex;
@@ -24,8 +28,8 @@
   color: black;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 20px;
-  font-family: "Baskervville";
+  font-size: 15px;
+  font-family: "adelia";
 }
 
 .nav-links a:hover {

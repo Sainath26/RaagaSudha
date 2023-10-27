@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/fonts.css";
+import GalleryP from "../components/galleryP";
 function Pradarshana() {
   return (
     <div>
@@ -15,6 +16,7 @@ function Pradarshana() {
       </div>
       <div className="Heading">Audience Turnout</div>
       <div className="Heading">Gallery</div>
+      <div className="Gallery"><GalleryP/></div>
     </div>
   );
 }
