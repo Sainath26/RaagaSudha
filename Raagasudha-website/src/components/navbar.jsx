@@ -1,17 +1,27 @@
-import React from "react";
 import "../style/navbar.css";
-import Image from "../assets/Logo.webp";
+
+import { useState, useEffect } from "react";
+import Topnav from "./topnav";
+import Sidenav from "./sidenav";
 function Navbar() {
-  return (
-    <div className="navbar">
-      <img src={Image} alt="Logo" className="logo"></img>
-      <div className="nav-links">
-        <a href="/">Home</a>
-        <a href="/classes">Classes</a>
-        <a href="/pradarshana">Pradarshana</a>
-      </div>
-    </div>
-  );
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return <div>{scrolled ? <Sidenav /> : <Topnav />}</div>;
 }
 
 export default Navbar;

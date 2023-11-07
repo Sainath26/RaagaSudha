@@ -1,8 +1,8 @@
-import React from "react";
 import "../style/fonts.css";
 import "../style/home.css";
 import Footer from "../components/footer";
 import Image from "../assets/images/guru.webp";
+import GalleryP from "../components/galleryP";
 function Home() {
   return (
     <body>
@@ -63,8 +63,12 @@ function Home() {
         </div>
         <div className="Heading">Safeguarding and child policy</div>
         <div className="Heading">Gallery</div>
-        <div className="Gallery"></div>
-        <a href="#" className="top">...</a>
+        <div className="Gallery">
+          <GalleryP />
+        </div>
+        <a href="#" className="top">
+          ...
+        </a>
         <Footer />
       </div>
     </body>

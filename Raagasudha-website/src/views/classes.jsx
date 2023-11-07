@@ -11,7 +11,6 @@ function Classes() {
         and online sessions. For those interested in attending physically, we
         have two dedicated locations. Please contact the school for further
         details on our online offerings.
-       
       </div>
       <br></br>
       <br></br>
