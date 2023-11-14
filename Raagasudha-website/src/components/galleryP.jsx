@@ -6,7 +6,6 @@ import "../style/fonts.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-import PhotoAlbum from "react-photo-album";
 function Gallery() {
   const imgUrl = new URL("../assets/images/homeimg/1.jpg", import.meta.url)
     .href;
@@ -47,7 +46,7 @@ function Gallery() {
 
   return (
     <div className="Gallery">
-      <Carousel>
+      <Carousel autoPlay={true} infiniteLoop={true}>
         <div>
           <img src={imgUr11} />
           <p className="legend">Image 1</p>

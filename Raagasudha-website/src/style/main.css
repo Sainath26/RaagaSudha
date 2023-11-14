@@ -33,10 +33,10 @@ body {
   overflow: auto;
   background: linear-gradient(
     315deg,
-    #f9f3df 3%,
-    #fdfce5 38%,
-    #d7e9f7 68%,
-    #f4d19b 98%
+    #d2e0fb 3%,
+    #f9f3cc 38%,
+    #d7e5ca 68%,
+    #8eaccd 98%
   );
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
@@ -156,10 +156,9 @@ p {
 
 /* This is used for the Gallery div in home and pradarshana sites */
 .Gallery {
-  width: 80%;
-  height: 70%;
+  width: 76%;
+  padding-bottom: 0%;
+  height: auto;
   margin: auto;
-
-  padding: 20px;
   overflow: auto;
 }

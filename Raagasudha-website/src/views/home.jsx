@@ -1,46 +1,69 @@
+/* eslint-disable react/no-unescaped-entities */
 import "../style/fonts.css";
 import "../style/home.css";
-import Footer from "../components/footer";
 import Image from "../assets/images/guru.webp";
 import GalleryP from "../components/galleryP";
+import pdflogo from "../assets/images/pdf.png";
+import pdf from "../assets/pdfs/safeguarding.pdf";
+
 function Home() {
+  const safeGuarding = () => {
+    window.open(pdf, "_blank");
+  };
   return (
     <body>
       <div className="simple-linear">
-        <div className="HomeHeading">About Raagasudha</div>
-        <div className="HomeText">
-          Raagasudha Music Academy provides Carnatic Vocal music training in the
-          North East of England through a structured curriculum. Raagasudha
-          strives to be a leading music school in the UK by providing a creative
-          and stimulating environment for excellence in music. Tradition,
-          culture, and the Indian roots of classical singing shape the school's
-          guiding principles. The teaching approach is modern and
-          forward-thinking, embracing new opportunities within teaching and
-          learning. Raaga Sudha enables and encourages the students to develop
-          their own strengths and skills within a supportive environment. Music
-          is the language of the heart and we continuously strive to experience
-          its grandeur through discipline, dedication , and sincerity. Our sole
-          aim at Raaga Sudha is for the students to ‘not just learn’ but to
-          “experience music”. Raagasudha Music Academy provides Carnatic Vocal
-          music training in the North East of England through a structured
-          curriculum. Raagasudha strives to be a leading music school in the UK
-          by providing a creative and stimulating environment for excellence in
-          music. Tradition, culture, and the Indian roots of classical singing
-          shape the school's guiding principles. The teaching approach is modern
-          and forward-thinking, embracing new opportunities within teaching and
-          learning. Raaga Sudha enables and encourages the students to develop
-          their own strengths and skills within a supportive environment. Music
-          is the language of the heart and we continuously strive to experience
-          its grandeur through discipline, dedication , and sincerity. Our sole
-          aim at Raaga Sudha is for the students to ‘not just learn’ but to
-          “experience music”.
-        </div>
+        <section className="NoticeBoard">
+          <div className="NoticeText">
+            {" "}
+            Click{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf-45mDiOUc3RA7AFW0nyxNC6RZDnt-c4PKgNH7PvAZXprBcw/viewform?usp=sf_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>{" "}
+            for Pradarshana'23 London travel consent from
+          </div>
+        </section>
+        <section className="AboutRaagasudha">
+          <div className="HomeHeading">About Raagasudha</div>
+          <div className="HomeText">
+            Raagasudha Music Academy provides Carnatic Vocal music training in
+            the North East of England through a structured curriculum.
+            Raagasudha strives to be a leading music school in the UK by
+            providing a creative and stimulating environment for excellence in
+            music. Tradition, culture, and the Indian roots of classical singing
+            shape the school's guiding principles. The teaching approach is
+            modern and forward-thinking, embracing new opportunities within
+            teaching and learning. Raaga Sudha enables and encourages the
+            students to develop their own strengths and skills within a
+            supportive environment. Music is the language of the heart and we
+            continuously strive to experience its grandeur through discipline,
+            dedication , and sincerity. Our sole aim at Raaga Sudha is for the
+            students to ‘not just learn’ but to “experience music”. Raagasudha
+            Music Academy provides Carnatic Vocal music training in the North
+            East of England through a structured curriculum. Raagasudha strives
+            to be a leading music school in the UK by providing a creative and
+            stimulating environment for excellence in music. Tradition, culture,
+            and the Indian roots of classical singing shape the school's guiding
+            principles. The teaching approach is modern and forward-thinking,
+            embracing new opportunities within teaching and learning. Raaga
+            Sudha enables and encourages the students to develop their own
+            strengths and skills within a supportive environment. Music is the
+            language of the heart and we continuously strive to experience its
+            grandeur through discipline, dedication , and sincerity. Our sole
+            aim at Raaga Sudha is for the students to ‘not just learn’ but to
+            “experience music”.
+          </div>
+        </section>
         <div className="contentImg">
           <img src={Image}></img>
         </div>
         <div className="Heading">Praveena Srikailash</div>
-        <div className="Text">Our Guru</div>
-        <div className="Text">
+        <div className="HomeSubtext">Our Guru</div>
+        <div className="HomeText">
           Mrs Praveena Srikailash is a disciple of Smt Vijaya Nagarajan who is a
           direct disciple of Padma Vibhushan Smt D K Pattammal. She was under
           her tutelage for 15 years in Chennai, India. Praveena has been
@@ -62,14 +85,20 @@ function Home() {
           “enjoy and create music”.
         </div>
         <div className="Heading">Safeguarding and child policy</div>
-        <div className="Heading">Gallery</div>
-        <div className="Gallery">
-          <GalleryP />
+        <div className="HomeText">
+          Raagasudha believes that no child or young person should experience
+          abuse or harm. The academy is committed to the protection of children
+          and young people. For full information please find the below
+          attachment.
+          <img className="pdflogo" src={pdflogo} onClick={safeGuarding} />
         </div>
-        <a href="#" className="top">
-          ...
-        </a>
-        <Footer />
+
+        <section className="HomeGalley">
+          <div className="Heading">Gallery</div>
+          <div className="Gallery">
+            <GalleryP />
+          </div>
+        </section>
       </div>
     </body>
   );

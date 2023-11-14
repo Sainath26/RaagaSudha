@@ -1,11 +1,12 @@
 import React from "react";
 import "../style/fonts.css";
+import "../style/Pradarshana.css";
 import GalleryP from "../components/galleryP";
 function Pradarshana() {
   return (
     <div>
       <div className="Heading">About</div>
-      <div className="Text">
+      <div className="PradarshanaText">
         Pradarshana is a plethora of vocal performances presented by the pupils
         and teachers of Raaga Sudha Music Academy. The performances are based on
         different genres of music like classical Carnatic, semi-classical, folk,
@@ -16,7 +17,9 @@ function Pradarshana() {
       </div>
       <div className="Heading">Audience Turnout</div>
       <div className="Heading">Gallery</div>
-      <div className="Gallery"><GalleryP/></div>
+      <div className="Gallery">
+        <GalleryP />
+      </div>
     </div>
   );
 }
