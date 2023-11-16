@@ -1,6 +1,7 @@
 import "../style/main.css";
 import "../style/fonts.css";
 import "../style/classes.css";
+import Footer from "../components/footer";
 import pdflogo from "../assets/images/pdf.png";
 import pdf from "../assets/pdfs/Raagasudha Academic calender.pdf";
 function Classes() {
@@ -9,7 +10,7 @@ function Classes() {
   };
   return (
     <>
-      <title>Classes</title>
+      <title>Classes | Raagasudha Music Academy</title>
       <div>
         <div className="Heading">Classes</div>
         <div className="ClassText">
@@ -36,14 +37,13 @@ function Classes() {
             <p>Sunday's 8:30-10:30 am</p>
           </div>
         </div>
-
-        <div className="Heading">Join us</div>
         <div className="ClassText"></div>
         <div className="Heading">Academic Calender</div>
         <div className="Text">
           <img className="pdflogo" src={pdflogo} onClick={AcademicCalendar} />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import "../style/navbar.css";
-import Image from "../assets/Logo.webp";
+import Image from "../assets/logo.png";
 function Topnav() {
   return (
     <div className="navbar">
