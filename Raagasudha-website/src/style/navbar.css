@@ -35,7 +35,7 @@
 .sideNav {
   display: flex;
   position: fixed;
-  top: 20%;
+  top: 25%;
   right: 3%;
 
   transform: translateY(-50%);
@@ -59,4 +59,10 @@ ul li {
 .hidden-navbar {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .hide-on-small-screen {
+    display: none;
+  }
 }

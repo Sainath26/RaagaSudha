@@ -51,7 +51,10 @@ function Classes() {
           and fill out the Registration Form
         </div>
         <div className="Heading">Academic Calender</div>
-        <div className="ClassText">
+        <div className="NoticeText">
+          Click the below icon to download the academic calendar for 2023-24
+          <br />
+          <br />
           <img className="pdflogo" src={pdflogo} onClick={AcademicCalendar} />
         </div>
         <div className="Heading">Absence policy</div>
