@@ -1,0 +1,166 @@
+/* This CSs file is to design all the views  */
+
+.logo {
+  width: 60px;
+  padding-left: 5%;
+  padding-top: 0.5%;
+}
+
+.Heading {
+  color: #8a1708;
+  font-family: "adelia";
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.Text {
+  color: black;
+  font-family: "Baskervville";
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+/* WholePage Background */
+body {
+  scroll-behavior: smooth;
+  margin: auto;
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    #d2e0fb 3%,
+    #f9f3cc 38%,
+    #d7e5ca 68%,
+    #8eaccd 98%
+  );
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.wave {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 1000% 1000% 0 0;
+  position: fixed;
+  width: 200%;
+  height: 12em;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+  bottom: -1.25em;
+  animation: wave 18s linear reverse infinite;
+  opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+  bottom: -2.5em;
+  animation: wave 20s -1s reverse infinite;
+  opacity: 0.9;
+}
+
+@keyframes wave {
+  2% {
+    transform: translateX(1);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(1);
+  }
+}
+
+/*Scroll Bar Styling*/
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #616161;
+}
+
+/* Styling for location card in classed view */
+.locations {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.location {
+  text-align: center;
+  width: 20%;
+  border: 1.7px hidden #8a1708;
+  padding: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Baskervville";
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+p {
+  font-size: 24px;
+  font-family: "Baskervville";
+  margin: 20px 0;
+}
+
+.contentImg {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* This is used for the Gallery div in home and pradarshana sites */
+.Gallery {
+  width: 76%;
+  padding-top: 10px;
+  height: auto;
+  margin: auto;
+  overflow: auto;
+}

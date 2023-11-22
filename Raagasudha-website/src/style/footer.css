@@ -1,0 +1,30 @@
+.Footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding above and below the content */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.SocialMedia {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Space between icons */
+  padding: 10px 0; /* Padding above and below the icon row */
+}
+
+.SocialMedia img {
+  width: 24px; /* Set a fixed width for icons */
+  height: auto; /* Maintain aspect ratio of icons */
+  cursor: pointer; /* Change mouse cursor on hover */
+  /* Add a filter for a white icon if the icons are black by default */
+  filter: invert(1);
+}
+
+/* Styling for the copyright text */
+.Copyright {
+  font-size: 14px; /* Smaller font size for copyright text */
+  margin-bottom: 10px; /* Space below the copyright text */
+}

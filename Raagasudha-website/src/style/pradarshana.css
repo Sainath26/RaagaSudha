@@ -1,0 +1,19 @@
+.PradarshanaText {
+  color: black;
+  font-family: "Baskervville";
+  font-size: 25px;
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  line-height: 25pt;
+}
+
+.Image {
+  padding-top: 30px;
+  display: flex;
+  margin: auto;
+  height: 600px;
+  justify-content: center;
+}

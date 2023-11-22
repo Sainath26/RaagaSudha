@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "JMH";
+  src: url("../assets/fonts/JMH.ttf");
+}
+
+@font-face {
+  font-family: "adelia";
+  src: url("../assets/fonts/adelia.ttf");
+}
+@font-face {
+  font-family: "EuphoriaScript";
+  src: url("../assets/fonts/EuphoriaScript.ttf");
+}
+
+@font-face {
+  font-family: "Sacramento";
+  src: url("../assets/fonts/Sacramento.ttf");
+}
+
+@font-face {
+  font-family: "Baskervville";
+  src: url("../assets/fonts/Baskervville-Italic.ttf");
+}
