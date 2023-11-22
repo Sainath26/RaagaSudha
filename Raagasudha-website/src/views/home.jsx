@@ -13,7 +13,7 @@ function Home() {
   };
   return (
     <>
-      <title>Pradarshana | Raagasudha Music Academy</title>
+      <title>Home | Raagasudha Music Academy</title>
       <body>
         <div className="simple-linear">
           <section className="NoticeBoard">

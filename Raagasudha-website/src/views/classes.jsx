@@ -4,6 +4,7 @@ import "../style/classes.css";
 import Footer from "../components/footer";
 import pdflogo from "../assets/images/pdf.png";
 import pdf from "../assets/pdfs/Raagasudha Academic calender.pdf";
+import FAQ from "../components/faq";
 function Classes() {
   const AcademicCalendar = () => {
     window.open(pdf, "_blank");
@@ -19,8 +20,7 @@ function Classes() {
           physically, we have two dedicated locations. Please contact the school
           for further details on our online offerings.
         </div>
-        <br></br>
-        <br></br>
+
         <div className="locations">
           <div className="location">
             <h2>Gosforth, Newcastle</h2>
@@ -37,10 +37,37 @@ function Classes() {
             <p>Sunday's 8:30-10:30 am</p>
           </div>
         </div>
-        <div className="ClassText"></div>
+        <div className="Heading">Join us</div>
+        <div className="NoticeText">
+          {" "}
+          Click{" "}
+          <a
+            href="https://forms.gle/FXBdv1GhPEdBZbBk8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>{" "}
+          and fill out the Registration Form
+        </div>
         <div className="Heading">Academic Calender</div>
-        <div className="Text">
+        <div className="ClassText">
           <img className="pdflogo" src={pdflogo} onClick={AcademicCalendar} />
+        </div>
+        <div className="Heading">Absence policy</div>
+        <div className="ClassText">
+          If students cannot make it to a class for any reason, we would request
+          you to let me know at least 24 hours in advance. The classes will not
+          be compensated if they miss their scheduled face to face lesson. If a
+          student misses an assessment due to unforeseen circumstances, the
+          Academy will reschedule it after deliberation. If gurus are unable to
+          make it for a session, we will endeavor to give the parents a minimum
+          of 24 hours’ notice (unless it is an emergency). Classes cancelled by
+          gurus will either be compensated or refunded.
+        </div>
+        <div className="Heading">Frequently Asked Questions</div>
+        <div className="FAQ">
+          <FAQ />
         </div>
       </div>
       <Footer />

@@ -28,6 +28,7 @@ function Footer() {
         <img src={Instagram} onClick={Instagramlink} />
         <img src={Youtube} onClick={YoutubeLink} />
         <img src={Linkedin} onClick={LinkedinLink} />
+        <div>+44 7702785815</div>
       </div>
     </div>
   );

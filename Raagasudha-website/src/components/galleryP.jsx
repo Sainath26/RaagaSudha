@@ -49,51 +49,39 @@ function Gallery() {
       <Carousel autoPlay={true} infiniteLoop={true}>
         <div>
           <img src={imgUr11} />
-          <p className="legend">Image 1</p>
         </div>
         <div>
           <img src={imgUr10} />
-          <p className="legend">Image 2</p>
         </div>
         <div>
           <img src={imgUr9} />
-          <p className="legend">Image 3</p>
         </div>
         <div>
           <img src={imgUr8} />
-          <p className="legend">Image 4</p>
         </div>
         <div>
           <img src={imgUr7} />
-          <p className="legend">Image 5</p>
         </div>
         <div>
           <img src={imgUr7} />
-          <p className="legend">Image 6</p>
         </div>
         <div>
           <img src={imgUr6} />
-          <p className="legend">Image 7</p>
         </div>
         <div>
           <img src={imgUr5} />
-          <p className="legend">Image 8</p>
         </div>
         <div>
           <img src={imgUr4} />
-          <p className="legend">Image 9</p>
         </div>
         <div>
           <img src={imgUr3} />
-          <p className="legend">Image 10</p>
         </div>
         <div>
           <img src={imgUr2} />
-          <p className="legend">Image 10</p>
         </div>
         <div>
           <img src={imgUrl} />
-          <p className="legend">Image 11</p>
         </div>
       </Carousel>
     </div>
