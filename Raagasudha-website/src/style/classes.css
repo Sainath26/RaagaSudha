@@ -22,3 +22,9 @@
   padding-top: 30px;
   padding-bottom: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+  .ClassText {
+    text-align: center;
+  }
+}
