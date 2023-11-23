@@ -1,3 +1,5 @@
+//This is the entry point of the website and it contains route handlers
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./views/home";
 import Pradarshana from "./views/pradarshana";

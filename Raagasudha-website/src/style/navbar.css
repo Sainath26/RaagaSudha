@@ -1,4 +1,4 @@
-/* This CSS file is to design Navbar */
+/* This file contains CSS exclusive to Navbar,sidenav,topnav jsx files */
 .navbar {
   display: flex;
   justify-content: space-between;

@@ -1,5 +1,6 @@
+//  This file contains function for top navigation
+
 import "../style/navbar.css";
-import { useState, useEffect } from "react";
 import Image from "../assets/logo.png";
 function Topnav() {
   return (

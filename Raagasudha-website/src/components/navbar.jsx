@@ -1,21 +1,21 @@
+// This file contains function conditionally rendering the navigation bar according to the position of the cursor
 import "../style/navbar.css";
-
 import { useState, useEffect } from "react";
 import Topnav from "./topnav";
 import Sidenav from "./sidenav";
 function Navbar() {
+  //Logic for calculating the position of the cursor
   const [scrollPosition, setScrollPosition] = useState(0);
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [scrolled, setScrolled] = useState(false);
-  const threshold = 10; // Set your threshold value here
+  const threshold = 10; // threshold value here
 
   const handleScroll = () => {
     const position = window.scrollY;
     const scrollingUp = position < lastScrollTop;
-
     setScrollPosition(position);
     setLastScrollTop(position);
-
+    console.log(scrollPosition);
     if (scrollingUp && position < threshold) {
       window.scrollTo({
         top: 0,
@@ -23,15 +23,12 @@ function Navbar() {
       });
     }
   };
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [lastScrollTop]);
-
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
@@ -41,7 +38,6 @@ function Navbar() {
         setScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);

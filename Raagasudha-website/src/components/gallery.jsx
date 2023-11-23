@@ -1,9 +1,6 @@
-// Plan for gallery form now
-// No need of props as of now, just use classic html tag with for loop for dymanic rendering
-// and write a js script to get the names of all the images and store it in an array
 import "../style/main.css";
 import "../style/fonts.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 function Gallery() {

@@ -1,7 +1,9 @@
+//This file has code for the pradarshana tab
+
 import "../style/fonts.css";
 import "../style/Pradarshana.css";
 import Footer from "../components/footer";
-import GalleryP from "../components/galleryP";
+import Gallery from "../components/gallery";
 import Image from "../assets/poster.jpg";
 function Pradarshana() {
   return (
@@ -24,7 +26,7 @@ function Pradarshana() {
         </div>
         <div className="Heading">Gallery</div>
         <div className="Gallery">
-          <GalleryP />
+          <Gallery />
         </div>
       </div>
       <Footer />

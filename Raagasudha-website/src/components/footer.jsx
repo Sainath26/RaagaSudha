@@ -1,6 +1,7 @@
+// This file contains function for Footer component
+
 import "../style/footer.css";
 import "../style/main.css";
-
 import Instagram from "../assets/icons/instagram.png";
 import Youtube from "../assets/icons/youtube.png";
 import Linkedin from "../assets/icons/linkedin.png";

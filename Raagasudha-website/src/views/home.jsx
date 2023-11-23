@@ -1,9 +1,10 @@
-/* eslint-disable react/no-unescaped-entities */
+// This file has code for the Classes tab
+
 import "../style/fonts.css";
 import "../style/home.css";
 import Footer from "../components/footer";
 import Image from "../assets/images/guru.webp";
-import GalleryP from "../components/galleryP";
+import Gallery from "../components/gallery";
 import pdflogo from "../assets/images/pdf.png";
 import pdf from "../assets/pdfs/safeguarding.pdf";
 
@@ -12,7 +13,7 @@ function Home() {
     window.open(pdf, "_blank");
   };
   return (
-    <>
+    <div>
       <title>Home | Raagasudha Music Academy</title>
       <body>
         <div className="simple-linear">
@@ -27,7 +28,7 @@ function Home() {
               >
                 here
               </a>{" "}
-              for Pradarshana'23 London travel consent from
+              for Pradarshana&apos;23 London travel consent from
             </div>
           </section>
           <section className="AboutRaagasudha">
@@ -38,7 +39,7 @@ function Home() {
               Raagasudha strives to be a leading music school in the UK by
               providing a creative and stimulating environment for excellence in
               music. Tradition, culture, and the Indian roots of classical
-              singing shape the school's guiding principles. The teaching
+              singing shape the school&apos;s guiding principles. The teaching
               approach is modern and forward-thinking, embracing new
               opportunities within teaching and learning. Raaga Sudha enables
               and encourages the students to develop their own strengths and
@@ -51,7 +52,7 @@ function Home() {
               structured curriculum. Raagasudha strives to be a leading music
               school in the UK by providing a creative and stimulating
               environment for excellence in music. Tradition, culture, and the
-              Indian roots of classical singing shape the school's guiding
+              Indian roots of classical singing shape the school&apos;s guiding
               principles. The teaching approach is modern and forward-thinking,
               embracing new opportunities within teaching and learning. Raaga
               Sudha enables and encourages the students to develop their own
@@ -96,17 +97,16 @@ function Home() {
             below attachment.
             <img className="pdflogo" src={pdflogo} onClick={safeGuarding} />
           </div>
-
           <section className="HomeGalley">
             <div className="Heading">Gallery</div>
             <div className="Gallery">
-              <GalleryP />
+              <Gallery />
             </div>
           </section>
         </div>
       </body>
       <Footer />
-    </>
+    </div>
   );
 }
 

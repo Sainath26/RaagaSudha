@@ -1,4 +1,4 @@
-import React from "react";
+// This file contains function for side navigation
 import "../style/navbar.css";
 function Sidenav() {
   return (
@@ -16,8 +16,6 @@ function Sidenav() {
               <a href="/pradarshana">Pradarshana</a>
             </li>
           </ul>
-
-          {console.log("control is reaching here")}
         </div>
       </div>
     </div>
