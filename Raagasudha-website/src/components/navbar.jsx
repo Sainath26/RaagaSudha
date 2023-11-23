@@ -28,6 +28,7 @@ function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lastScrollTop]);
   useEffect(() => {
     const handleScroll = () => {
