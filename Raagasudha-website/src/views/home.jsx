@@ -22,13 +22,14 @@ function Home() {
               {" "}
               Click{" "}
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf-45mDiOUc3RA7AFW0nyxNC6RZDnt-c4PKgNH7PvAZXprBcw/viewform?usp=sf_link"
+                href="https://www.ticketsource.co.uk/bhavan/t-pqkpnzm"
                 target="_blank"
                 rel="noreferrer"
               >
                 here
               </a>{" "}
-              for Pradarshana&apos;23 London travel consent from
+              to book tickets for Pradarshana happening at The Bhavan on
+              17th-Feb
             </div>
           </section>
           <section className="AboutRaagasudha">
