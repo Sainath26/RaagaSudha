@@ -33,35 +33,27 @@ function Home() {
             </div>
           </section>
           <section className="AboutRaagasudha">
-            <div className="HomeHeading">About Raagasudha</div>
+            <div className="HomeHeading">About Raaga Sudha</div>
             <div className="HomeText">
-              Raagasudha Music Academy provides Carnatic Vocal music training in
-              the North East of England through a structured curriculum.
-              Raagasudha strives to be a leading music school in the UK by
-              providing a creative and stimulating environment for excellence in
-              music. Tradition, culture, and the Indian roots of classical
-              singing shape the school&apos;s guiding principles. The teaching
-              approach is modern and forward-thinking, embracing new
-              opportunities within teaching and learning. Raaga Sudha enables
-              and encourages the students to develop their own strengths and
-              skills within a supportive environment. Music is the language of
-              the heart and we continuously strive to experience its grandeur
-              through discipline, dedication , and sincerity. Our sole aim at
-              Raaga Sudha is for the students to ‘not just learn’ but to
-              “experience music”. Raagasudha Music Academy provides Carnatic
-              Vocal music training in the North East of England through a
-              structured curriculum. Raagasudha strives to be a leading music
-              school in the UK by providing a creative and stimulating
-              environment for excellence in music. Tradition, culture, and the
-              Indian roots of classical singing shape the school&apos;s guiding
-              principles. The teaching approach is modern and forward-thinking,
-              embracing new opportunities within teaching and learning. Raaga
-              Sudha enables and encourages the students to develop their own
-              strengths and skills within a supportive environment. Music is the
-              language of the heart and we continuously strive to experience its
-              grandeur through discipline, dedication , and sincerity. Our sole
-              aim at Raaga Sudha is for the students to ‘not just learn’ but to
-              “experience music”.
+              Raaga Sudha Music Academy is a &quot;not for profit community
+              interest company&quot; based in the North East of England. It is
+              registered as a performing arts academy, providing Vocal music
+              training in Indian Classical Carnatic Music through a structured
+              curriculum. Our aim at Raaga Sudha is to help students explore,
+              experience and enjoy music. Tradition, culture and Indian roots of
+              classical singing shape the school&apos;s guiding principles.
+              Integrating positive values like love, peace, truth, right conduct
+              and non violence is an extremely important objective for Raaga
+              Sudha. The teaching approach is modern and forward-thinking,
+              embracing new opportunities, thereby enabling and encouraging the
+              students to develop their own strengths and skills within a
+              supportive environment. Students are trained and encouraged to
+              become artists by providing a platform to showcase their talents
+              every year. Our annual Pradarshana event forms an ideal production
+              opportunity for students to express themselves through music.
+              Music is the &quot;language of the heart&quot; and we continuously
+              strive to experience its grandeur through discipline, dedication
+              and sincerity.
             </div>
           </section>
           <div className="contentImg">
