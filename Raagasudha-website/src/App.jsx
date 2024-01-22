@@ -3,6 +3,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./views/home";
 import Pradarshana from "./views/pradarshana";
+import Safeguarding from "./views/safeguarding";
 import Classes from "./views/classes";
 import Navbar from "./components/navbar";
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Classes" element={<Classes />} />
           <Route path="/pradarshana" element={<Pradarshana />} />
+          <Route path="/safeguarding" element={<Safeguarding />} />
         </Routes>
       </Router>
     </>

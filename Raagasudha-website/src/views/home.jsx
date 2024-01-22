@@ -5,13 +5,11 @@ import "../style/home.css";
 import Footer from "../components/footer";
 import Image from "../assets/images/guru.webp";
 import Gallery from "../components/gallery";
-import pdflogo from "../assets/images/pdf.png";
-import pdf from "../assets/pdfs/safeguarding.pdf";
 import Bargraph from "../assets/images/Bargraph.png";
 function Home() {
-  const safeGuarding = () => {
-    window.open(pdf, "_blank");
-  };
+  // const safeGuarding = () => {
+  //   window.open(pdf, "_blank");
+  // };
   return (
     <div>
       <title>Home | Raagasudha Music Academy</title>
@@ -30,6 +28,19 @@ function Home() {
               </a>{" "}
               to book tickets for Pradarshana happening at The Bhavan on
               17th-Feb
+            </div>
+            <div className="NoticeText">
+              {" "}
+              Click{" "}
+              <a
+                href="https://royalcourttheatre.com/whats-on/ramayama/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>{" "}
+              to book tickets for Pradarshana happening at The Royal Court on
+              18th-Feb
             </div>
           </section>
           <section className="AboutRaagasudha">
@@ -118,14 +129,14 @@ function Home() {
             few. She believes that creativity is innate in every child and she
             strives to make them “not just learn but “enjoy and create music”.
           </div>
-          <div className="Heading">Safeguarding and child policy</div>
+          {/* <div className="Heading">Safeguarding and child policy</div>
           <div className="HomeText">
             Raagasudha believes that no child or young person should experience
             abuse or harm. The academy is committed to the protection of
             children and young people. For full information please find the
             below attachment.
             <img className="pdflogo" src={pdflogo} onClick={safeGuarding} />
-          </div>
+          </div> */}
           <section className="HomeGalley">
             <div className="Heading">Gallery</div>
             <div className="Gallery">

@@ -15,6 +15,9 @@ function Sidenav() {
             <li>
               <a href="/pradarshana">Pradarshana</a>
             </li>
+            <li>
+              <a href="/safeguarding">Safeguarding Policy</a>
+            </li>
           </ul>
         </div>
       </div>
