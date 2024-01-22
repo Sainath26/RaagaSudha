@@ -26,6 +26,11 @@ function Safeguarding() {
           Newcastle upon Tyne, NE27 0RP
           <br></br>
           Phone: +44 07841354590
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </body>
       <Footer />
