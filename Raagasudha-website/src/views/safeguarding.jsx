@@ -23,9 +23,9 @@ function Safeguarding() {
           <img className="pdflogo" src={pdflogo} onClick={safeGuarding} />
           Safeguarding Lead: Mr Srikailash Venkitadri
           <br></br>
-          Newcastle upon Tyne, NE27 0RP
+          14 Backworth Court, Newcastle upon Tyne, NE27 0RP
           <br></br>
-          Phone: +44 07841354590
+          Phone: 07841354590
           <br></br>
           <br></br>
           <br></br>
