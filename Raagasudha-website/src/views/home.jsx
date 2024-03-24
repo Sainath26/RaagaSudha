@@ -17,30 +17,8 @@ function Home() {
         <div className="simple-linear">
           <section className="NoticeBoard">
             <div className="NoticeText">
-              {" "}
-              Click{" "}
-              <a
-                href="https://www.ticketsource.co.uk/bhavan/t-pqkpnzm"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here
-              </a>{" "}
-              to book tickets for Pradarshana happening at The Bhavan on
-              17th-Feb
-            </div>
-            <div className="NoticeText">
-              {" "}
-              Click{" "}
-              <a
-                href="https://royalcourttheatre.com/whats-on/ramayama/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here
-              </a>{" "}
-              to book tickets for Pradarshana happening at The Royal Court on
-              18th-Feb
+              Pradarshana’ 24 themed ‘Explore experience enjoy’ in Glasshouse
+              International centre for music, Gateshead
             </div>
           </section>
           <section className="AboutRaagasudha">
