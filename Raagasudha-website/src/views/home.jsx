@@ -17,12 +17,13 @@ function Home() {
         <div className="simple-linear">
           <section className="NoticeBoard">
             <div className="NoticeText">
-              After a very successful performance Royal court Theatre, London
-              and The Bhavan, London, Raagasudha is getting ready for their next
-              mega performance at Glasshouse International Centre for Music.
+              After a very successful performance at{" "}
+              <strong>Royal court Theatre</strong>, London and{" "}
+              <strong>The Bhavan</strong>, London, Raagasudha is getting ready
+              for their next mega performance.
             </div>
             <div className="NoticeText">
-              Pradarshana&apos;24, themed{" "}
+              <strong>Pradarshana&apos;24</strong>, themed{" "}
               <strong>&quot;Explore Experience Enjoy&quot; </strong>
               will be happening at the <strong>
                 Glasshouse International
