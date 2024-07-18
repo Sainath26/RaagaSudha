@@ -10,13 +10,13 @@ function Sidenav() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/classes">Classes</a>
-            </li>
-            <li>
               <a href="/pradarshana">Pradarshana</a>
             </li>
             <li>
-              <a href="/safeguarding">Safeguarding Policy</a>
+              <a href="/classes">Classes</a>
+            </li>
+            <li>
+              <a href="/safeguarding">Policies</a>
             </li>
           </ul>
         </div>

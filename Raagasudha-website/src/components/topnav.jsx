@@ -8,9 +8,9 @@ function Topnav() {
       <img src={Image} alt="Logo" className="logo"></img>
       <div className="nav-links">
         <a href="/">Home</a>
-        <a href="/classes">Classes</a>
         <a href="/pradarshana">Pradarshana</a>
-        <a href="/safeguarding">Safeguarding Policy</a>
+        <a href="/classes">Classes</a>
+        <a href="/safeguarding">Policies</a>
       </div>
     </div>
   );
