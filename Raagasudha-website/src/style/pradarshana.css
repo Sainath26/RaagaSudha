@@ -21,7 +21,16 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .Heading {
+    font-family: "Baskervville";
+  }
+  .HomeHeading {
+    font-family: "Baskervville";
+  }
   .PradarshanaText {
-    text-align: center;
+    font-size: 15px;
+  }
+  .Image {
+    height: 300px;
   }
 }

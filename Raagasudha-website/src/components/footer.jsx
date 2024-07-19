@@ -24,7 +24,7 @@ function Footer() {
   };
   return (
     <div className="Footer">
-      <div className="Copyright">©2024 by Raagasudha Music Academy.</div>
+      <div className="Copyright">©2024 by Raaga Sudha Music Academy.</div>
       <div className="SocialMedia">
         <img src={Instagram} onClick={Instagramlink} />
         <img src={Youtube} onClick={YoutubeLink} />

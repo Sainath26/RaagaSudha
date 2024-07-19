@@ -26,5 +26,13 @@
 @media screen and (max-width: 1000px) {
   .ClassText {
     text-align: center;
+    font-size: 15px;
+  }
+  .Heading {
+    font-family: "Baskervville";
+    font-size: 18px;
+  }
+  .NoticeText {
+    font-size: 18px;
   }
 }

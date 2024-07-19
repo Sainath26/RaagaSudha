@@ -1,3 +1,4 @@
+import "../style/classes.css";
 import Faq from "react-faq-component";
 
 function FrequentlyAskedQuestions() {
@@ -42,15 +43,21 @@ function FrequentlyAskedQuestions() {
       },
     ],
   };
-
-  const styles = {
+  let styles = {
     bgColor: "transparent",
     rowTitleTextSize: "25px",
     rowContentTextSize: "25px",
     rowContentPaddingTop: "30px",
     rowContentPaddingBottom: "30px",
   };
+  let width = screen.width;
 
+  if (width < 1000) {
+    styles.rowContentTextSize = "15px";
+    styles.rowTitleTextSize = "18px";
+  }
+
+  console.log(width);
   const config = {
     animate: true,
     arrowIcon: "↓",

@@ -27,7 +27,7 @@ function Safeguarding() {
       <body>
         <div className="Heading">Safeguarding and child policy</div>
         <div className="HomeText">
-          Raaga sudha believes that no child or young person should experience
+          Raaga Sudha believes that no child or young person should experience
           abuse or harm. The academy is committed to the protection of children
           and young people. For full information please find the below
           attachments.

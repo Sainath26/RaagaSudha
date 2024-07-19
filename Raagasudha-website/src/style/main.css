@@ -170,3 +170,23 @@ p {
   margin: auto;
   overflow: auto;
 }
+
+@media screen and (max-width: 1000px) {
+  .Heading {
+    padding-top: 20px;
+    font-family: "Baskervville";
+    padding-bottom: 3px;
+  }
+  .Bargraph {
+    height: 300px;
+  }
+  .contentImg {
+    height: 300px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 15px;
+  }
+}

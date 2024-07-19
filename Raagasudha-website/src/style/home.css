@@ -51,5 +51,20 @@
 @media screen and (max-width: 1000px) {
   .HomeText {
     text-align: center;
+    font-size: 15px;
+  }
+  .HomeHeading {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .pdflogo {
+    height: 80px;
+  }
+  .HomeSubtext {
+    font-size: 15px;
+  }
+  .NoticeText {
+    font-size: 15px;
   }
 }
