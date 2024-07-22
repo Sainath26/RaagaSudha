@@ -7,6 +7,8 @@ import pdf from "../assets/pdfs/ChildSafeguarding.pdf";
 import pdf2 from "../assets/pdfs/AdultSafeguarding.pdf";
 import pdf3 from "../assets/pdfs/EqualityDiversityInclusionPolicy.pdf";
 import pdf4 from "../assets/pdfs/DataProtection.pdf";
+import pdf5 from "../assets/pdfs/cic.pdf";
+import pdf6 from "../assets/pdfs/AOA.pdf";
 function Safeguarding() {
   console.log("control is reaching here at Safeguarding");
   const safeGuarding = () => {
@@ -20,6 +22,12 @@ function Safeguarding() {
   };
   const dataProtection = () => {
     window.open(pdf4, "_blank");
+  };
+  const CIC = () => {
+    window.open(pdf5, "_blank");
+  };
+  const AOA = () => {
+    window.open(pdf6, "_blank");
   };
   return (
     <div>
@@ -70,6 +78,18 @@ function Safeguarding() {
           <br></br>
           <img className="pdflogo" src={pdflogo} onClick={dataProtection} />
           <center>Data Protection Policy </center>
+        </div>
+        <div className="Heading">Other documents</div>
+        <div className="HomeText">
+          Please find the below attachments for form CIC36 and Articles of
+          Association of our Academy.
+          <br></br>
+          <img className="pdflogo" src={pdflogo} onClick={CIC} />
+          <center>Form CIC36</center>
+          <br></br>
+          <img className="pdflogo" src={pdflogo} onClick={AOA} />
+          <center>Articles of Association</center>
+          <br></br>
         </div>
       </body>
       <Footer />

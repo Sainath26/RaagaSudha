@@ -1,0 +1,38 @@
+/* This file contains CSS exclusive to pradarshana.jsx file */
+
+.PradarshanaText {
+  color: black;
+  font-family: "Baskervville";
+  font-size: 25px;
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  line-height: 25pt;
+}
+
+.Image {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: flex;
+  margin: auto;
+  height: 300px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Heading {
+    font-family: "Baskervville";
+  }
+  .HomeHeading {
+    font-family: "Baskervville";
+  }
+  .PradarshanaText {
+    font-size: 15px;
+    text-align: center;
+  }
+  .Image {
+    height: 200px;
+  }
+}

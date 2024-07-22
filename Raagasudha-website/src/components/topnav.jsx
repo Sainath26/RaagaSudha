@@ -11,6 +11,7 @@ function Topnav() {
         <a href="/pradarshana">Pradarshana</a>
         <a href="/classes">Classes</a>
         <a href="/safeguarding">Policies</a>
+        <a href="/directors">Directors</a>
       </div>
     </div>
   );
