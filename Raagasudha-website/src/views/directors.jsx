@@ -13,13 +13,13 @@ function Directors() {
       <div>
         <div className="Heading">Our Directors</div>
         <div>
-          <h2>Dr Bijoysree Sengupta</h2>
+          <h2>Dr. Bijoysree Sengupta</h2>
         </div>
         <div className="Image">
           <img src={Image1}></img>
         </div>
         <div className="PradarshanaText">
-          Dr Sengupta is a retired Consultant in Gynecology and Obstetrics at
+          Dr. Sengupta is a retired Consultant in Gynecology and Obstetrics at
           NHS, UK. He was also the Chairman of the European Council of
           Gynecologists and Obstetricians and an Emeritus Professor in the same
           field. He has authored 3 books for MD students in Gynecology and
@@ -31,13 +31,13 @@ function Directors() {
           disabilities” in their performances each year.
         </div>
         <div>
-          <h2>Mr Arvind Kywalya</h2>
+          <h2>Mr. Arvind Kywalya</h2>
         </div>
         <div className="Image">
           <img src={Image2}></img>
         </div>
         <div className="PradarshanaText">
-          Mr Kywalya is training to become a chartered accountant in London. He
+          Mr. Kywalya is training to become a chartered accountant in London. He
           works for PWC, London and is passionate about music. He is a
           performing artist who performs in various stages in London and India.
           He has a massive following of around 100,000 people on Instagram and
@@ -46,13 +46,13 @@ function Directors() {
           Academy.
         </div>
         <div>
-          <h2>Mr Srikailash Venkitadri</h2>
+          <h2>Mr. Srikailash Venkitadri</h2>
         </div>
         <div className="Image">
           <img src={Image3}></img>
         </div>
         <div className="PradarshanaText">
-          As a social entrepreneur, Mr Venkitadri strives to take music,
+          As a social entrepreneur, Mr. Venkitadri strives to take music,
           especially Indian music, to every part of the local community in the
           North East UK. He teaches music at the West Jesmond Primary School,
           Newcastle (after school club) and wants to take Indian music to people
