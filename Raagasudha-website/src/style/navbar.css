@@ -35,7 +35,7 @@
 .sideNav {
   display: flex;
   position: fixed;
-  top: 25%;
+  top: 30%;
   right: 3%;
 
   transform: translateY(-50%);

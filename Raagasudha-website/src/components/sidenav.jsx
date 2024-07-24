@@ -16,7 +16,7 @@ function Sidenav() {
               <a href="/classes">Classes</a>
             </li>
             <li>
-              <a href="/safeguarding">Policies</a>
+              <a href="/governance">Governance</a>
             </li>
             <li>
               <a href="/directors">Directors</a>

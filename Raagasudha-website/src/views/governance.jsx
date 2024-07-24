@@ -1,4 +1,4 @@
-// This file has code for the Safeguarding tab
+// This file has code for the Governance tab
 import "../style/fonts.css";
 import "../style/home.css";
 import Footer from "../components/footer";
@@ -9,8 +9,9 @@ import pdf3 from "../assets/pdfs/EqualityDiversityInclusionPolicy.pdf";
 import pdf4 from "../assets/pdfs/DataProtection.pdf";
 import pdf5 from "../assets/pdfs/cic.pdf";
 import pdf6 from "../assets/pdfs/AOA.pdf";
-function Safeguarding() {
-  console.log("control is reaching here at Safeguarding");
+import pdf7 from "../assets/pdfs/BusinessPlan.pdf";
+
+function Governance() {
   const safeGuarding = () => {
     window.open(pdf, "_blank");
   };
@@ -28,6 +29,9 @@ function Safeguarding() {
   };
   const AOA = () => {
     window.open(pdf6, "_blank");
+  };
+  const businessPlan = () => {
+    window.open(pdf7, "_blank");
   };
   return (
     <div>
@@ -81,14 +85,16 @@ function Safeguarding() {
         </div>
         <div className="Heading">Other documents</div>
         <div className="HomeText">
-          Please find the below attachments for form CIC36 and Articles of
-          Association of our Academy.
-          <br></br>
+          Please find the below attachments for form CIC36, Articles of
+          Association of our Academy and Business Plan.<br></br>
           <img className="pdflogo" src={pdflogo} onClick={CIC} />
           <center>Form CIC36</center>
           <br></br>
           <img className="pdflogo" src={pdflogo} onClick={AOA} />
           <center>Articles of Association</center>
+          <br></br>
+          <img className="pdflogo" src={pdflogo} onClick={businessPlan} />
+          <center>Business Plan</center>
           <br></br>
         </div>
       </body>
@@ -97,6 +103,6 @@ function Safeguarding() {
   );
 }
 
-export default Safeguarding;
+export default Governance;
 
 //

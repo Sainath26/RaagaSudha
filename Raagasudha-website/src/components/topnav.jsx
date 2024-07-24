@@ -10,7 +10,7 @@ function Topnav() {
         <a href="/">Home</a>
         <a href="/pradarshana">Pradarshana</a>
         <a href="/classes">Classes</a>
-        <a href="/safeguarding">Policies</a>
+        <a href="/governance">Governance</a>
         <a href="/directors">Directors</a>
       </div>
     </div>
