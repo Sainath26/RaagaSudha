@@ -65,22 +65,28 @@ function Home() {
           <div className="HomeText">
             Mrs Praveena Srikailash is a disciple of Smt Vijaya Nagarajan who is
             a direct disciple of Padma Vibhushan Smt D K Pattammal. She was
-            under her tutelage for 15 years in Chennai, India. Praveena has been
-            teaching music for the last 13 years in the UK. She has taught at
-            SAGE Gateshead in Tyne and Wear. She has special interest in bhajan
-            renditions and has been part of many audio productions. She has
-            recorded at the prestigious Blueprint Studios in Manchester. She
-            strongly believes that music is the key to bliss and continues to
-            upgrade her musical skills through regular lessons from experts in
-            the field. She has provided vocal training for many young singers
-            from different parts of the country. Her innovative “Raaga Days”
-            concept has been well appreciated by her colleagues. Praveena loves
-            spiritual singing and has a vast repertoire of soulful bhajans
+            under her tutelage for 15 years in Chennai, India learning Indian
+            Classical Carnatic music. Praveena has been teaching music for the
+            last 15 years in the UK. She has taught at SAGE Gateshead in Tyne
+            and Wear. She is also a qualified Behaviour Consultant specializing
+            in dealing with children and young adults with learning
+            disabilities. Her aim is to utilize both her skills in music and
+            behaviour therapy together by taking music to children and young
+            adults with learning disabilities in the community. She has a
+            special interest in bhajan renditions and has been part of many
+            audio productions. She has recorded at the prestigious Blueprint
+            Studios in Manchester. She strongly believes that music is the key
+            to transcending all boundaries and leads to social harmony. She
+            continues to upgrade her musical skills through regular lessons from
+            experts in the field. She has provided vocal training for many young
+            singers from different parts of the country. Her innovative “Raaga
+            Days” concept has been well appreciated by her colleagues. Praveena
+            loves spiritual singing and has a vast repertoire of soulful bhajans
             (short songs rendered with prayerful feeling). Although she is
             trained in Carnatic style, Praveena has been composing songs in
             different genres since her school days. Her works vary from
             patriotic songs, bhajans and songs on Indian sacred rivers to name a
-            few. She believes that creativity is innate in every child and she
+            few. She believes that creativity is innate in every child, and she
             strives to make them “not just learn but “enjoy and create music”.
           </div>
           {/* <div className="Heading">Safeguarding and child policy</div>
