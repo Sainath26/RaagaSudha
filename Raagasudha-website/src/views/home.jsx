@@ -63,8 +63,8 @@ function Home() {
           <div className="Heading">Praveena Srikailash</div>
           <div className="HomeSubtext">Our Guru</div>
           <div className="HomeText">
-            Mrs Praveena Srikailash is a disciple of Smt Vijaya Nagarajan who is
-            a direct disciple of Padma Vibhushan Smt D K Pattammal. She was
+            Vidya Praveena Srikantan is a disciple of Smt Vijaya Nagarajan who
+            is a direct disciple of Padma Vibhushan Smt D K Pattammal. She was
             under her tutelage for 15 years in Chennai, India learning Indian
             Classical Carnatic music. Praveena has been teaching music for the
             last 15 years in the UK. She has taught at SAGE Gateshead in Tyne
