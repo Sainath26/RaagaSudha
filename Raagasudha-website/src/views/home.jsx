@@ -60,7 +60,7 @@ function Home() {
             <img src={Image}></img>
           </div>
 
-          <div className="Heading">Praveena Srikailash</div>
+          <div className="Heading">Vidya Praveena Srikantan</div>
           <div className="HomeSubtext">Our Guru</div>
           <div className="HomeText">
             Vidya Praveena Srikantan is a disciple of Smt Vijaya Nagarajan who
