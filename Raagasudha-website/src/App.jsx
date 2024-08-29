@@ -6,6 +6,9 @@ import Pradarshana from "./views/pradarshana";
 import Governance from "./views/governance";
 import Directors from "./views/directors";
 import Classes from "./views/classes";
+import Community from "./views/community";
+import Ramayana from "./views/ramayana";
+import OneWorld from "./views/oneworld";
 import Navbar from "./components/navbar";
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pradarshana" element={<Pradarshana />} />
-          <Route path="/Classes" element={<Classes />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/ramayana" element={<Ramayana />} />
+          <Route path="/oneworld" element={<OneWorld />} />
           <Route path="/governance" element={<Governance />} />
           <Route path="/directors" element={<Directors />} />
         </Routes>
