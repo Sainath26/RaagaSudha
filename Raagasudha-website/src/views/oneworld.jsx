@@ -45,8 +45,20 @@ function OneWorld() {
         </div>
         <div className="PradarshanaText">
           Bharathanatyam performance by Smt Chamundeshwari Pani`s Dance Troupe.
-          Bhangra by Punjabi Virsa Group. Patriotic Song routine by the
-          Bollywood Dance Group, Newcastle upon Tyne
+          Bhangra by Punjabi Virsa Group.
+          <br></br>
+          Patriotic Song routine by the Bollywood Dance Group, Newcastle upon
+          Tyne
+        </div>
+        <div>
+          <h2>Drama</h2>
+        </div>
+        <div className="PradarshanaText">
+          Narasimha Avathaar Drama presented by actors from The Sruti School of
+          Vedic Learning
+          <br></br>
+          Music Therapy - An innovative and thought-provoking drama on the
+          effect of music on the mind.
         </div>
       </div>
 
